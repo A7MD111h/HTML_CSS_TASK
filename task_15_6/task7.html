@@ -4,41 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            max-width:300px;
+               border: groove;
+        }
+    </style>
 </head>
 <body>
     <h1>Registration Form !</h1>
-    <hr>
-    <div style="border: 1xp solid black;">
+    <p><div class="container">
     <h3>Poersonl details</h3>
     <hr>
-    <label for="fname">First name:</label>
-    <input typr="text" id="fnmae" name="fname">
-    <br>
-    <br>
-    <label for="1name">Last name: </label>
-    <input type="text" id="lname" name="lname">
-    <br>
-    <br>
-    <label for="1name">Email: </label>
-    <input type="text" id="lname" name="lname">
-    <br>
-    <br>
-    Gender: 
-    <input type="radio" value="male"><label>Male</label>
-    <input type="radio" value="female"><label>Female</label>
-    <br>
-    <br>
-    <label for="city" >City:</label>
-    <select name="city" id="city" >
-        <option value="amman">Amman</option>    
-        <option value="aqaba">Aqaba</option> 
-        <option value="zarqa">Zarqa</option> 
-        <option value="irbid">Irbid</option> 
-    </select>
-    <br>
-    <br>
-    <input type="submit" value="Sign up">  
+    <form>
+        <P><table>First name: 
+            <input name="firstname" type="text" size="25" maxlength="32"/>
+        </table></P>
+        <p><table>Last name:
+            <input name="listname" type="text" size="25" maxlength="32"/>
+        </table></P>
+        <P><table>Email:
+            <input name="E-mail" type="email" size="25" maxlength="32" />
+        </table></P>
+    <P>
+        Gender: 
+        <label>
+            <input name="Gender" type="radio" value="male">Male</label>
+        <label>
+            <input name="Gender" type="radio" value="">Female</label>
+    </p>
+    <P>
+        <label for="city" >City:</label>
+        <select name="city" id="city" >
+            <option value="aqaba">Aqaba</option>    
+            <option value="amman">Amman</option> 
+            <option value="zarqa">Zarqa</option> 
+            <option value="irbid">Irbid</option> 
+        </select>
+    </p>
     
-    </div>
+        <input type="submit" value="Sign up">  
+    </form>
+    </div></p>
 </body>
 </html>

@@ -1,0 +1,17 @@
+tr,td {
+  border: 1px dotted black;
+
+}
+table{ 
+    border-collapse: collapse;
+}
+.jack{
+  text-align: center;
+  
+}
+.gege{
+  padding: 10px;
+  width: 400px ;
+  margin: 10px auto;
+  border: 1px solid ;
+}
