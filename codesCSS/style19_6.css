@@ -39,14 +39,17 @@
     color: #972789;
 
 }
- /* img{
+   img{
     
     position: absolute;
     top: 0;
     right: 0;
     background-color: white;
-/*  margin-bottom: 100%;
-    margin-left: 100%; */
-}  */
+    background-repeat: repeat-y;
+    width: 150px;
+    height: 300px;
+    /* margin-bottom: 100%;
+    margin-left: 100%;  */
+}   
 
 
