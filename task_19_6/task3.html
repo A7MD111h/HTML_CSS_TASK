@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/codesCSS/style19_6.css">
-</head>
+    <link rel="stylesheet" href="style19_6.css"></head>
+    <style>
+    .div {
+        position: relative;   
+      }
+  
+      .styimg {
+      
+      background-color: white;
+      background-image: url("../images/man.png");
+      background-repeat: repeat-y;
+      position:absolute;
+      border: 1px solid black;
+      width: 150px;
+      height: 450px;
+      background-size: 100%;
+      top: 0;
+      right: 0;   
+      }
+    </style>
 <body>
     
     <div>
@@ -25,10 +43,15 @@
         <br />
         <br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta doloremque ab asperiores. Vero neque aliquid quos, recusandae expedita molestiae vitae voluptas libero beatae ipsa nostrum magnam corrupti hic optio odit, corporis, totam cupiditate quasi! Pariatur culpa quod itaque nihil dolores tempore tenetur possimus, eveniet, non numquam ipsum deserunt amet architecto.
-        <!-- <img style="position: absolute; top: 0; right: 0; background-color: white;" src="/images/man2.jpg" width="150" height="300" /> -->
-        <img src="/images/man2.jpg" />
+        <!-- <img style="position: absolute; top: 0; right: 0; background-color: white;    background-repeat: repeat-y;
+        " src="/images/man.png" width="150" height="300" />  -->
+        
     </div>
-
+    <div>
+        <div class="styimg"></div>
+    </div>
+    <br />
+       
     <a href="../index.html">Home</a>
 </body>
 </html>
